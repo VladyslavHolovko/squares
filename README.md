@@ -1,0 +1,1 @@
+[Demo on GitHub Pages](https://vladyslavholovko.github.io/squares/)
