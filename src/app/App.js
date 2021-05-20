@@ -52,7 +52,7 @@ function App() {
                     onSquareEnter={onSquareEnter}
                 />
             </div>
-            <div className="squares-app__hover-info">
+            <div className="squares-app__flex-item">
                 <HoverInfoContainer
                     squaresState={squaresState}
                 />
