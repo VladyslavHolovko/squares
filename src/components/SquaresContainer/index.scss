@@ -1,0 +1,11 @@
+.squares {
+  --border-color: #c4c4c4;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(var(--size), 1fr);
+    grid-template-rows: repeat(var(--size), 1fr);
+    border-right: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+  }
+}

@@ -1,0 +1,18 @@
+.info-card {
+  &__container {
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__num {
+    margin: 0 0 0 0.35rem;
+    font-size: x-large;
+    text-align: right;
+  }
+
+  &__label {
+    margin: 0;
+    font-size: smaller;
+  }
+}

@@ -1,0 +1,35 @@
+.hover-info {
+  &__title {
+    margin: 0;
+    font-size: xx-large;
+  }
+
+  &__cards-container {
+    padding: 0.25rem;
+    max-height: 66vh;
+    overflow-y: auto;
+    margin: 1.9rem 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 1rem;
+
+    @media screen and (max-width: 660px) {
+      max-height: initial;
+    }
+
+    &::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background-color: #F5F5F5;
+    }
+
+    &::-webkit-scrollbar {
+      width: 6px;
+      background-color: #F5F5F5;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #555;
+    }
+  }
+}
